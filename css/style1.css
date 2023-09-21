@@ -273,7 +273,7 @@ float: right;
 
 .hebergements-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
+    margin-bottom:4px;
 }
 
 .hebergements-cards .card-subtitle {
@@ -282,9 +282,6 @@ float: right;
 
 .henergements-cards .card-rating {
     margin-bottom: 5px;
-}
-.card2{
-
 }
 /****** Populaires ***********/
 .populaires {
