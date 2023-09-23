@@ -184,13 +184,25 @@ float: right;
 }
 
 /****** filtre ***********/
-.filtre{
+.filtreActivite{
     display: flex;
     justify-content: right;
     align-items: center;
     margin-top:30px;
 }
+.filtre{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
 .filtre1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.filtre15{
     display: flex;
     justify-content: right;
     align-items: center;
@@ -216,7 +228,7 @@ float: right;
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding-top:35px;
+    padding-top:65px;
 }
 
 .margin-right{
@@ -378,7 +390,7 @@ width: 33.33%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-items:normal;
     flex: 1 0 0;
     border-radius: 20px;
     /* Shadow/Card */
@@ -387,12 +399,16 @@ width: 33.33%;
 
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content:start;
     flex-direction: column;
     padding: 20px;
-    height:auto;
+    height:163px;
     width:100%;
     background-color:rgba(242,242,242,1);
+}
+
+.foopad {
+ padding-top: 15px;
 }
 
 
@@ -410,6 +426,12 @@ width: 33.33%;
         box-sizing: border-box;
     }
 
+    .hebergements-cards .card-title {
+        font-size:13px;
+    }
+    .hebergements-cards .card-subtitle {
+        font-size:12px;
+    }
 }
 
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -452,6 +474,31 @@ width: 33.33%;
     .activiteIm {
         height: 200px;
     }
+    .hebergements-cards .card-content {
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .hebergements-cards .card-title {
+        font-size:16px;
+    }
+    .hebergements-cards .card-subtitle {
+        font-size:1px;
+    }
+
+    .filtre15{
+        display: block;
+        
+    }
+
+
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
 }
 
 
