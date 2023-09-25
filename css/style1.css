@@ -421,7 +421,7 @@ width: 33.33%;
 
 /****** Media queries ***********/
 
-/* Medium devices (tablets, less/equal than 1024px) */
+/* Medium devices (tablets, less/equal than 1024px)*/ 
 @media (max-width: 1183px) {
     .hebergements-cards .card-content {
         width: 100%;
@@ -524,7 +524,7 @@ width: 33.33%;
         width: 150px;
     }
     .nav{
-        
+
     }
 }
 
