@@ -193,8 +193,7 @@ float: right;
 .filtre{
     display: flex;
     justify-content: right;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .filtre1{
@@ -203,6 +202,11 @@ float: right;
     align-items: center;
 }
 .filtre15{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.filtre16{
     display: flex;
     justify-content: right;
     align-items: center;
@@ -229,6 +233,7 @@ float: right;
     justify-content:flex-start;
     align-items: center;
     padding-top:65px;
+    flex-direction:none;
 }
 
 .margin-right{
@@ -486,23 +491,61 @@ width: 33.33%;
         font-size:16px;
     }
     .hebergements-cards .card-subtitle {
-        font-size:1px;
+        font-size:16px;
     }
 
     .filtre15{
         display: block;
         
     }
+    .border11{
+        padding-left: 9px;
+    }
+    .card-title{
+        font-size: 13px;
+    }
 
 
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    
+    .filtre16{
+        display:flex;
+        justify-content: space-between;
+        height: 65px;
+    }
+   
+    .filtre1{
+        display:block;
+        justify-content: right;
+    }
+
+    .filtre2{
+        width: 150px;
+    }
+    .nav{
+        
+    }
 }
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 390.98px) {
+   .footer{
+    padding: none;
+   }
+
+   .filtre4{
+    flex-direction: column;
+   }
+   .main-container{
+    padding: 0 13px;
+   }
+   .num1{
+    width: 410px;
+    align-items: center;
+   }
+   .main-container{
+    padding: none;
+   }
 }
