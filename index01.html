@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div>
         <header>
             <nav class="nav">
                 <div class="logo"><!-- logo -->
@@ -23,13 +23,26 @@
                 </div >
                 <div class="navlik"><!--button-->
                     <ul>
-                        <li class="active"><a href="#">Hébergement</a></li>
-                        <li><a href="#">Activités</a></li>
+                        <div class="barsleft">
+                            <li class="active "><a href="#heber">Hébergements</a></li>
+                        </div>
+                        <div class="barsright">
+                            <li><a href="#activi">Activités</a></li>
+                        </div>
                     </ul>
+                   <!-- <div class="barsinfo">
+                        
+                          <div class="barsleft">
+
+                          </div>
+                          <div class="barsright">
+
+                          </div>
+                    </div>-->
                 </div>  
             </nav>
         </header>
-        <main>
+        <main class="main-container">
             <section class="num1">
                 <div class="d1">
                     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
@@ -43,13 +56,16 @@
                         <input class="input2" type="search" placeholder="Marseille, France"> 
                     </div>
                     <div class="bouton-r">
-                        <a href="#">Rechercher</a>
+                        <a href="#">
+                            <span class="hide1">Rechercher</span>
+                            <span class="hide2"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></span>
+                        </a>
                     </div>
                 </div>
                 <div class="filtre15 ">
-                    <div>
+                    <div class="mobfil">
                         <div class="margin-right">
-                            <h3>Filtres</h3>
+                            <h3 class="mobfil1">Filtres</h3>
                         </div>
                     </div>
                     <div class="filtre1">
@@ -62,7 +78,7 @@
                                     <a href="#">Économique</a>
                                 </div>
                             </div>
-                            <div class="filtre filtre2">
+                            <div class="filtre filtre2 mobfil2">
                                 <div>
                                     <i class="fa-solid fa-person icon"></i>
                                 </div>
@@ -80,7 +96,7 @@
                                     <a href="#">Romantique</a>
                                 </div>
                             </div>
-                            <div class="filtre filtre2">
+                            <div class="filtre filtre2 mobfil2">
                                 <div>
                                     <i class="fa-solid fa-fire icon"></i>
                                 </div>
@@ -92,7 +108,7 @@
                         
                     </div>
                 </div>
-                <div class="bar">
+                <div class="bar bar1">
                     <div class=>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <circle cx="12" cy="12" r="11.5" stroke="#D9D9D9"/>
@@ -105,7 +121,7 @@
                 </div>
             </section>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="heber" class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -298,8 +314,8 @@
                     </div>
                 </section>
             </div>
-            <section class="activite">
-                <div class="populaires-title border1">
+            <section id="activi" class="activite">
+                <div class="populaires-title">
                     <h2 class="section-title"> Activités à marseille</h2>
                 </div>
                 <div class="filtreActivite">
@@ -338,7 +354,7 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="filtre44">
             <div class="filtre4">
                 <div class="footer">
                     <h3>À propos</h3>
